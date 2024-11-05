@@ -1,0 +1,91 @@
+/* NavBar.css */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 100;
+    top: 0;
+}
+
+nav img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+    color: violet;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.buttons button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.SignUp {
+    background-color: violet;
+    color: white;
+}
+
+.LogIn {
+    background-color: white;
+    color: violet;
+    border: 2px solid violet;
+}
+
+.SignUp:hover {
+    background-color: #6a0dad;
+    color: white;
+}
+
+.LogIn:hover {
+    background-color: violet;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .elements ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}

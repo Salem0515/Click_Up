@@ -1,0 +1,211 @@
+/* Main Navigation Menu */
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+ul li {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+ul li:hover {
+    color: violet;
+}
+
+/* Docs Section */
+.Docs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../Assets/Article.png);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Docs h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Docs img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.start {
+    background-color: white;
+    color: violet;
+    border: 2px solid violet;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.start:hover {
+    background-color: violet;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Green Docs Section */
+.greendocs {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: #e6ffe6;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+.green_file {
+    width: 66px;
+    height: 66px;
+}
+.left_side {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right_hand_side_img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right_hand_side_img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Built Section */
+.Built {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #EDFAFE;
+}
+
+.Built p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Built h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.underneth {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.rightt {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightt ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+
+.rightt ul li {
+    display: flex;
+    gap: 15px;
+    align-items: start;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftt {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.leftt img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Docs h1, .greendocs h1 {
+        font-size: 28px;
+    }
+
+    .greendocs {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .underneth {
+        flex-direction: column;
+    }
+
+    .start {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    ul li {
+        font-size: 18px;
+    }
+
+    .Docs h1, .greendocs h1 {
+        font-size: 20px;
+    }
+
+    .start {
+        width: 90%;
+    }
+}
