@@ -1,6 +1,6 @@
 import React from 'react'
 import './Featuers.css'
-import list from '../../Assets/list.png'
+import list from '../../Assets/List.png'
 import ClickUpAi_logo from '../../Assets/ClickUpAi_logo.png'
 import AiMenu from '../../Assets/AiMenu.png'
 import projects_tasks from '../../Assets/projects_tasks.png'
