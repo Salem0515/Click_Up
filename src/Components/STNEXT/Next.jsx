@@ -1,10 +1,10 @@
 import React from 'react'
 import './Next.css'
-import Link from '../../Assets/Link.png'
+import Link from '../../Assets/link.png'
 import next from '../../Assets/next.png'
 import noti from '../../Assets/noti.png'
 import customer_support from '../../Assets/customer_support.png'
-import Vector from '../../Assets/Vector.png'
+import Vector from '../../Assets/vector.png'
 const Next = () => {
     return (
         <div className='next'>
