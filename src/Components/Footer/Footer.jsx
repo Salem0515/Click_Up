@@ -1,16 +1,16 @@
 import React from 'react'
 import './Footer.css'
-import Logo from '../../Assets/Logo.png'
+import Logo from '../../Assets/logo.png'
 import badge from '../../Assets/badge.png'
 import shilde from '../../Assets/shilde.png'
 import time from '../../Assets/time.png'
 import googleplay from '../../Assets/googlePlay.png'
 import appstore from '../../Assets/appStor.png'
 import title from '../../Assets/title.png'
-import Linkedin from '../../Assets/Linkedin.png'
-import Facebook from '../../Assets/Facebook.png'
-import Twitter from '../../Assets/Twitter.png'
-import instgram from '../../Assets/Instagram.png'
+import Linkedin from '../../Assets/linkedin.png'
+import Facebook from '../../Assets/facebook.png'
+import Twitter from '../../Assets/twitter.png'
+import instgram from '../../Assets/instagram.png'
 
 const Footer = () => {
     return (
