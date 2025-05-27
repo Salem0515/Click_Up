@@ -105,6 +105,8 @@ const Footer = () => {
                         Security
                         Your Privacy
                         Terms</p>
+                    <p>© 2023 Designed and Developed by Mohamed Hussein 
+                        </p>
                 </div>
                 <div className="right_footer">
                     <img src={Linkedin} alt="" />
