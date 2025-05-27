@@ -101,10 +101,6 @@ const Footer = () => {
             <div className="lastly">
                 <div className="left_footer">
                     <img src={title} alt="" />
-                    <p>© 2023 ClickUp
-                        Security
-                        Your Privacy
-                        Terms</p>
                     <p>2023 Designed and Developed by Mohamed Hussein 
                         </p>
                 </div>
